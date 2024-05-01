@@ -1,6 +1,6 @@
 const marvel = {
   render: () => {
-    const urlAPI = 'https://gateway.marvel.com/v1/public/characters?ts=1&apikey=XXX&hash=XXX';
+    const urlAPI = 'https://api.chucknorris.io/jokes/random';
     const container = document.querySelector('#marvel-row');
     let contentHTML = '';
 
